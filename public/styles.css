@@ -5,10 +5,12 @@
 }
 html {
   font-family: "Montserrat", sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 body {
   background: #EEE;
-  padding: 0 16px;
+  padding-left: 16px;
   font-family: "Montserrat", sans-serif; 
 }
 
@@ -41,11 +43,12 @@ footer p {
 
 .note-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
-.note-column h2{
-  text-align: center;
+.note-column {
+  height: 110vh;
+  overflow-y: auto;
 }
 
 .note {
@@ -58,7 +61,7 @@ footer p {
   float: left;
   text-align: center;
 }
-.note h1 {
+.note h3 {
   font-size: 1.1em;
   margin-bottom: 6px;
 }

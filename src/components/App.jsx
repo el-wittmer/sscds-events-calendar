@@ -42,8 +42,8 @@ export default function App() {
   if (!post) return (
     <div>
       <div class="note-container">
-        <div id="upcoming" class="note-column">
         <h2>Events</h2>
+        <div id="upcoming" class="note-column">
           <div class="loading">
             <l-dot-spinner
               size="40"
@@ -71,9 +71,9 @@ export default function App() {
 
   return (
     <div>
-      <div class="note-container">
-        <div id="upcoming" class="note-column">
+      <div className="note-container">
         <h2>Events</h2>
+        <div id="upcoming" className="note-column">
         {filteredWeek.length === 0 ? 
         <div class="note">
           <p>No upcoming events!</p>
