@@ -13,6 +13,7 @@ export default function App() {
   const [post, setPost] = React.useState(null);
 
   const CALENDAR_URL = import.meta.env.VITE_CALENDAR_URL
+  console.log(CALENDAR_URL)
 
   function getData(){
     axios.get(`${CALENDAR_URL}`)
