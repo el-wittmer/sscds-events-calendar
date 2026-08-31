@@ -1,4 +1,3 @@
 # sscds-events-calendar
 
-Hosted on GitHub pages following this tutorial:
-[Tutorial](https://blog.seancoughlin.me/deploying-to-github-pages-using-gh-pages)
+Alternative display for Siebel School master calendar of events. Previously part of digital signage, since replaced by project that includes both events information and map navigation. 
